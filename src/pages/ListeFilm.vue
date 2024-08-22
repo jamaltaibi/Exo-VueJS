@@ -1,7 +1,7 @@
 <script setup>
 import {computed,ref} from "vue";
 import MovieCard from "@/components/movieComponent.vue"
-import FormMovie from "@/components/formulaireComponent.vue"
+import FormMovie from "@/components/addMovie.vue"
 
 
 const movies = ref([
@@ -18,8 +18,13 @@ const movies = ref([
   {
     title: 'Le seigneur des Anneaux',
     image: "https://upload.wikimedia.org/wikipedia/fr/f/fb/Le_Seigneur_des_Anneaux_logo.png?20150913125315",
-    isWatched: false
-  }
+    isWatched: true
+  },
+  {
+    title: 'Scarface',
+    image: "https://fr.web.img3.acsta.net/pictures/210/485/21048559_20131010181109755.jpg",
+    isWatched: true
+  },
 ]);
 
 

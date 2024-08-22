@@ -3,7 +3,7 @@ import MyNav from "@/components/MyNav.vue";
 </script>
 
 <template>
-  <MyNav />
+  <MyNav/>
   <RouterView/>
 </template>
 
