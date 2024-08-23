@@ -36,7 +36,12 @@ function changeColor() {
       <li>
         <RouterLink to="./Login">Login</RouterLink>
       </li>
-
+      <li>
+        <RouterLink to="./ApiJoke">Joke</RouterLink>
+      </li>
+      <li>
+        <RouterLink to="./crud">CRUD</RouterLink>
+      </li>
       <li>
         <button @click="changeColor()">Go Yellow</button>
       </li>
@@ -55,6 +60,9 @@ function changeColor() {
       </li>
       <li>
         <RouterLink to="./LoginCorr">Login-Correction</RouterLink>
+      </li>
+      <li>
+        <RouterLink to="./ApiJokeCorr">Joke-Correction</RouterLink>
       </li>
       <li>
         <RouterLink to="./Store">Store</RouterLink>

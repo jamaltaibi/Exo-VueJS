@@ -11,7 +11,9 @@ import Store from "@/pages/storeComponent.vue";
 import LoginStore from "@/pages/LoginComponent.vue";
 import LoginStoreCorr from "@/pages/loginComponentCorr.vue";
 import HomeComponent from "@/pages/homeComponent.vue";
-
+import ApiJoke from "@/pages/api-joke.vue";
+import ApiJokeCorr from "@/pages/api-joke-Corr.vue";
+import CrudComponent from "@/pages/crud-component.vue";
 const router = createRouter({
     history: createWebHistory(),
     routes: [
@@ -27,6 +29,9 @@ const router = createRouter({
         {path: '/Store', component: Store},
         {path: '/Login', component: LoginStore},
         {path: '/LoginCorr', component: LoginStoreCorr},
+        {path: '/ApiJoke', component: ApiJoke},
+        {path: '/ApiJokeCorr', component: ApiJokeCorr},
+        {path: '/crud', component: CrudComponent},
     ]
 });
 
